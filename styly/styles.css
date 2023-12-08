@@ -1,0 +1,170 @@
+/**** Základní pravidla ****/
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/**** Zásobník - design ****/
+
+.delic1 {
+
+    margin-top: 150px;
+    height: 2px;
+    background-color: aqua;
+}
+
+.delic2 {
+
+    height: 2px;
+    background-color: aqua;
+    margin-top: 50px;
+}
+
+/**** Web design ****/
+
+body {
+
+    background: #2d2d39;
+}
+
+/**** První box s portrétem ****/
+
+.foto_info {
+
+    margin-top: 100px;
+    width: 300px;
+    height: 250px;
+
+}
+
+.foto_info .ramecek1 {
+
+    background-color: aqua;
+    border-radius: 45px;
+    margin-left: 50px;
+}
+
+.foto_info .kontakt {
+
+    color: #2d2d39;
+    margin-left: 70px;
+    font-weight: bold;
+    
+    
+}
+
+.foto_info .kontakt a {
+
+    text-decoration: none;    
+}
+
+/**** Popis osoby ****/
+
+.info_osoba {
+
+    color: #fff;
+    text-align: justify;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+
+}    
+    
+.info_osoba h2 {
+
+    color: aqua;
+    
+}
+
+/**** Tabulka ****/
+
+/* .vzdelani {
+
+} */
+
+.vzdelani h2 {
+
+    margin-top: 25px;
+    margin-left: 50px;
+    color: aqua;
+    font-size: 40px;
+}
+
+.vzdelani .edu1 {
+
+   
+    width: 675px;
+    height: 113px;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.vzdelani .edu1, th, td {
+
+    border:2px solid aqua;
+    
+}
+
+.pracovni h2 {
+
+    margin-left: 50px;
+    margin-top: 25px;
+    color: aqua;
+    font-size: 40px;
+}
+.pracovni .edu1 {
+
+    width: 675px;
+    height: 150px;
+    color: #fff;
+    margin-top: 25px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.pracovni .edu1, th, td {
+
+    border:2px solid aqua;
+}
+
+.ramecek2 {
+
+    margin-top: 50px;
+    height: 280px;
+    background-color: aqua;
+    border-radius: 15px;
+    
+}
+
+.ramecek2 .konicky {
+
+    margin-left: 50px;
+    list-style: square;
+    color: #2d2d39;
+}
+
+.ramecek2 h2 {
+
+    margin-left: 40px;
+    color: #2d2d39;
+}
+
+.zapati {
+
+    background-color: aqua;
+    margin-top: 150px;
+    text-align: center;
+    color: #2d2d39;
+    
+}
