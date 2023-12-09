@@ -81,7 +81,7 @@ body {
     
 }
 
-/**** Tabulka ****/
+/**** Tabulky ****/
 
 /* .vzdelani {
 
@@ -138,6 +138,8 @@ body {
     border:2px solid aqua;
 }
 
+/**** Koníčky ****/
+
 .ramecek2 {
 
     margin-top: 50px;
@@ -159,6 +161,8 @@ body {
     margin-left: 40px;
     color: #2d2d39;
 }
+
+/**** Zápatí ****/
 
 .zapati {
 
